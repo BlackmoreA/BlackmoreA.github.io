@@ -1,0 +1,26 @@
+{
+  "users" : [
+    {
+      "DisplayName" : "Bilbo Baggins",
+      "EmailAddress" : "bilbo@dcmail,ca",
+      "UserName" : "baggins",
+      "Password" : "1234567"
+    },
+
+    {
+      "DisplayName" : "Samwise Gamgee",
+      "EmailAddress" : "sgamgee@dcmail,ca",
+      "UserName" : "gamgee",
+      "Password" : "7654321"
+    },
+
+    {
+      "DisplayName" : "Pippen Took",
+      "EmailAddress" : "ptook@dcmail,ca",
+      "UserName" : "ptook",
+      "Password" : "0987654"
+    }
+
+  ]
+
+}

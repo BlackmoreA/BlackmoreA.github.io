@@ -1,0 +1,42 @@
+<h1> <i class="fa-solid fa-ghost"></i> Contact Us</h1>
+
+<div id="messageArea">Error Message</div>
+
+<div class="row justify-content-lg-center g-3">
+    <form class="col-lg-6 col-md-6 col-sm-6">
+        <div class="input-group-text mb-3">
+            <span class="form-label">Full Name </span>
+            <input type="text" name="fullName" class="form-control" id="fullName"
+                   aria-describedby="Full Name Input" aria-label="Full Name Input" required>
+        </div>
+
+        <div class="input-group-text mb-3">
+            <span class="form-label">Contact Number </span>
+            <input type="tel" name="contactNumber" class="form-control" id="contactNumber"
+                   aria-describedby="Contact Number Input" aria-label="Contact Number Input" required>
+        </div>
+
+        <div class="input-group-text mb-3">
+            <span class="form-label">Email address </span>
+            <input type="email" name="emailAddress" class="form-control" id="emailAddress"
+                   aria-describedby="Email Address Input" aria-label="Email Address" required>
+        </div>
+
+        <div class="mb-3 input-group-text">
+            <input id="subscribeCheckbox" type="checkbox" class="form-check-input">
+            <label class="form-check-label" for="subscribeCheckbox"> Subscribe to our contact list</label>
+        </div>
+
+        <button id="sendButton" type="submit" class="btn btn-primary">
+            <i class="fas fa-envelope fa-lg"> </i> Submit</button>
+
+        <button id="cancelButton" type="reset" class="btn btn-warning">
+            <i class="fas fa-undo fa-lg"> </i> Cancel</button>
+    </form>
+
+    <div class="col-lg-4 col-md-4">
+        <a href="/contact-list" class="btn-primary">
+            <i class="fas fa-envelope fa-lg"> </i> Show Contact List
+        </a>
+    </div>
+</div>
